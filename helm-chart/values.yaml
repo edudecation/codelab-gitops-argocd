@@ -6,6 +6,7 @@ backend:
   host: fdu-backend.codelab.cloud-sp.eu
   service:
     port: 443
+# Frontend conf
 frontend:
   name: fdufrontend
   image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0
