@@ -7,10 +7,10 @@ backend:
   service:
     port: 443
 # Frontend conf
-frontend:
-  name: fdufrontend
-  image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0
-  containerPort: 4200
-  host: fdu.codelab.cloud-sp.eu
-  service:
-    port: 443
+# frontend:
+#   name: fdufrontend
+#   image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0
+#   containerPort: 4200
+#   host: fdu.codelab.cloud-sp.eu
+#   service:
+#     port: 443
